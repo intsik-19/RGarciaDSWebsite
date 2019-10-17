@@ -1,0 +1,33 @@
+@{
+    ViewData ["titles"] = "Client Information";
+}
+
+<h1>@ViewData["titles"]</h1>
+
+<form>
+    <div class = "form-group">
+        <input type="text" name="firstName" class="form-control" placeholder = "First Name" required>
+    </div>
+    <div class = "form-group">
+        <input type="text" name="lastName" class="form-control" placeholder = "Last Name" required>
+    </div>
+    <div class = "form-group">
+        <input type="number" name="houseNumber" class="form-control" placeholder = "House Number" required>
+    </div>
+    <div class = "form-group">
+        <input type="text" name="street" class="form-control" placeholder = "Street" required>
+    </div>
+    <div class = "form-group">
+        <input type="text" name="city" class="form-control" placeholder = "City" required>
+    </div>
+    <div class = "form-group">
+        <input type="text" name="province" class="form-control" placeholder = "Province" required>
+    </div>
+    <div class = "form-group">
+        <input type="text" name="phone" class="form-control" placeholder = "Phone Number" required>
+    </div>
+    <div class = "form-group">
+        <input type="text" name="email" class="form-control" placeholder = "email address" required>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Save">
+</form>
